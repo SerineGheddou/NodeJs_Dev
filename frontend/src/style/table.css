@@ -1,0 +1,139 @@
+.table-wrapper {
+    width: 100%;
+  }
+  
+  .table {
+    display: block;
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    max-width: auto;
+    margin: auto;
+    table-layout: auto;
+    overflow-x: auto;
+  }
+  
+  .table thead {
+    background-color: #F29227;
+    color: #222;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.8rem;
+  }
+  
+  .table td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #eee;
+  }
+  
+  .expand {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .label {
+    border-radius: 3px;
+    padding: 0.3rem;
+    text-align: center;
+  }
+  
+  .label-draft {
+    background-color: #777;
+  }
+  
+  .label-live {
+    background-color: #42a942;
+  }
+  
+  .label-error {
+    background-color: #d9534f;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .actions svg {
+    cursor: pointer;
+  }
+  
+  .delete-btn {
+    color: #e10d05;
+  }
+
+  .Header {
+    font-size: larger;
+    font-weight: bolder;
+    color: #15171c;
+    margin: 35px;
+  }
+  .searchBar{
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    padding-top: 15px ;
+    align-self: center;
+    background: transparent;
+  }
+ 
+  .divSearch{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    border:3px solid ; 
+    border-color: #298ACB;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .buttonDiv{
+    margin: auto;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .Orange{
+    margin-block: 10px;
+    background-color: #F29227;
+    border-radius: 24px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    color: white;
+  }
+  .Blue{
+    margin-block: 10px;
+    background-color: #298ACB;
+    border-radius: 24px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    color: white;
+  }
+  .importbtn{
+    margin-block: 10px;
+    background-color: #15171c;
+    border-radius: 16px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    color: white;
+  }
+  .importdiv{
+    display: flex;
+    justify-content: center;
+  }
